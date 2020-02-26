@@ -20,6 +20,7 @@ get_header(); ?>
       <div class="content">
         <h3><span><?php the_title(); ?></span></h3>
         <?php the_content(); ?>
+        <a href="#">Shop Now</a>
       </div>
     </div>
     <?php endwhile; ?>
