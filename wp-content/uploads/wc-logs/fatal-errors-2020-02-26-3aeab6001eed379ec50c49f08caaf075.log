@@ -1,0 +1,4 @@
+2020-02-26T16:42:53+00:00 CRITICAL syntax error, unexpected 'no' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\bibek\wordpress\efashion\wp-content\themes\efashion\templates\template-home.php on line 18
+
+2020-02-26T16:43:18+00:00 CRITICAL syntax error, unexpected 'no' (T_STRING), expecting ',' or ';' in C:\xampp\htdocs\bibek\wordpress\efashion\wp-content\themes\efashion\templates\template-home.php on line 17
+
