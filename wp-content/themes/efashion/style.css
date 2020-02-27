@@ -6336,7 +6336,7 @@ General
 -------
 */
 body {
-	font-size: 16px;
+	font-size: 18px;
 	overflow-x: hidden;
 }
 
@@ -6344,6 +6344,141 @@ body {
 	max-width: 1170px;
 	margin: auto;
 	padding: 0 15px;
+}
+
+section {
+	padding: 0 !important;
+}
+
+/* 
+Button
+------
+*/
+.btn {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	display: inline-block;
+	vertical-align: top;
+	transition: all 0.3s linear;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #000;
+}
+
+/* 
+Products carousel
+-----------------
+*/
+.woocommerce ul.products .slick-list {
+	margin: 0 -15px;
+}
+
+.woocommerce ul.products .slick-list li.product {
+	clear: none !important;
+	margin: 20px 15px !important;
+	position: relative;
+	overflow: hidden;
+}
+
+.woocommerce span.onsale {
+	width: 150px !important;
+	height: 40px !important;
+	background: #fc3503;
+	margin: 0 !important;
+	border-radius: 0;
+	line-height: 2;
+	min-height: 40px;
+	left: -50px !important;
+	transform: rotate(-45deg);
+	top: 10px !important;
+}
+
+/* 
+Slick JS Dots
+-------------
+*/
+.slick-dots {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	right: 0;
+	left: 0;
+}
+
+.slick-dots li {
+	margin: 0 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slick-dots li button {
+	text-indent: -999px;
+	overflow: hidden;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	background: none;
+	border: 2px solid #fff;
+	transition: all 0.3s linear;
+}
+
+.slick-dots li.slick-active button,
+.slick-dots li:hover button {
+	background: #fff;
+}
+
+/* 
+Slick JS Arrows
+----------------
+*/
+.slick-slider .slick-prev,
+.slick-slider .slick-next {
+	position: relative;
+	font-size: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: -20px;
+	transform: translateY(-50%);
+	z-index: 1;
+	transition: all 0.2s linear;
+}
+
+.slick-slider .slick-next {
+	left: auto;
+	right: -20px;
+}
+
+.slick-slider .slick-prev:hover,
+.slick-slider .slick-next:hover,
+.slick-slider .slick-prev:focus,
+.slick-slider .slick-next:focus {
+	text-decoration: none;
+	opacity: 0.7;
+	outline: none;
+}
+
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+	content: '\f053';
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 16px;
+}
+
+.slick-slider .slick-next:before {
+	content: '\f054';
 }
 
 /* 
@@ -6408,7 +6543,7 @@ Header
 	height: 1.8rem;
 }
 
-.header-inner .primary-menu-wrapper + .header-toggles {
+.header-inner .primary-menu-wrapper+.header-toggles {
 	display: flex;
 	align-items: center;
 	margin: 0 0 0 1rem;
@@ -6438,4 +6573,70 @@ Header
 .header-inner .cart a:hover,
 .header-inner .header-toggles .toggle:hover {
 	opacity: 0.7;
+}
+
+/* 
+Hero
+----
+*/
+.heroBlock .holder {
+	padding: 120px 0;
+	background-size: cover !important;
+	background-position: 50% !important;
+}
+
+
+.heroBlock .content {
+	position: relative;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.4);
+	max-width: 640px;
+	padding: 40px;
+}
+
+.heroBlock h3 {
+	margin: 0 0 20px;
+}
+
+.heroBlock p {
+	margin: 0 0 30px;
+}
+
+/* 
+Block
+-----
+*/
+section.block {
+	padding: 60px 0 !important;
+}
+
+.block .titleHolder {
+	text-align: center;
+	margin: 0 0 50px;
+}
+
+.block .titleHolder h2 {
+	margin: 0 0 5px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.block .titleHolder h2 span {
+	position: relative;
+}
+
+.block .titleHolder h2 span:before,
+.block .titleHolder h2 span:after {
+	content: '';
+	background: #000;
+	height: 1px;
+	position: absolute;
+	left: -70px;
+	top: 50%;
+	width: 50px;
+}
+
+.block .titleHolder h2 span:after {
+	left: auto;
+	right: -70px;
 }
