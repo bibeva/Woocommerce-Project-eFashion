@@ -6370,6 +6370,21 @@ Button
 }
 
 /* 
+Three Cols
+----------
+*/
+.threeCols {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.threeCols .col {
+	flex: 0 0 33.33%;
+	padding: 0 15px;
+}
+
+/* 
 Products carousel
 -----------------
 */
@@ -6639,4 +6654,56 @@ section.block {
 .block .titleHolder h2 span:after {
 	left: auto;
 	right: -70px;
+}
+
+/* 
+Product Categories
+------------------
+*/
+.productCategories .image {
+	height: 450px;
+	background-size: cover !important;
+	background-position: 50% !important;
+}
+
+.productCategories .col > a,
+.productCategories .col .image {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.productCategories .col .image {
+	position: relative;
+}
+
+.productCategories .col .image:before {
+	content: '';
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition: background 0.3s linear;
+}
+
+.productCategories .col .image:hover:before {
+	background: rgba(0,0,0,0.6);
+}
+
+.productCategories .col h3 {
+	position: relative;
+	color: #000;
+	background: #fff;
+	font-size: 28px;
+	padding: 10px 20px;
+	margin: 0;
+	transition: padding 0.3s cubic-bezier(.17,.67,.83,.67);
+}
+
+.productCategories .col .image:hover h3 {
+	padding: 10px 30px;
 }
