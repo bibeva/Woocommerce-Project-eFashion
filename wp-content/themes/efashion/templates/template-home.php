@@ -71,4 +71,32 @@ get_header(); ?>
   </div>
 </section>
 
+<!-- sale block -->
+<section class="block">
+  <div class="container">
+    <div class="titleHolder">
+      <h2><span>On Sale</span></h2>
+      <p>Hundreds of items on sale</p>
+    </div>
+    <?php echo do_shortcode('[sale_products]'); ?>
+  </div>
+</section>
+
+<!-- hero block -->
+<section class="block brandBlock">
+  <div class="container">
+    <ul>
+      <?php 
+        $args = array( 'post_type' => 'brands' );
+        $loop = new WP_Query( $args );
+        while ( $loop->have_posts() ) : $loop->the_post();
+      ?> 	
+      <li>
+        <?php the_post_thumbnail(); ?>
+      </li>
+      <?php endwhile; ?>
+    </ul>
+  </div>
+</section>
+
 <?php get_footer(); ?>
