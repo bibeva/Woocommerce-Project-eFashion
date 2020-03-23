@@ -6840,6 +6840,10 @@ Footer
 	padding: 0 0 15px;
 }
 
+.woocommerce ul.product_list_widget ins {
+	text-decoration: none;
+}
+
 #site-footer .product_list_widget img {
 	float: left;
 	margin: 0 15px 0 0;
