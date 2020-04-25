@@ -1,8 +1,0 @@
-2020-03-03T11:39:18+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_thumbnails() in C:\xampp\htdocs\bibek\wordpress\efashion\wp-content\themes\efashion\templates\template-home.php:96
-Stack trace:
-#0 C:\xampp\htdocs\bibek\wordpress\efashion\wp-includes\template-loader.php(98): include()
-#1 C:\xampp\htdocs\bibek\wordpress\efashion\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\bibek\wordpress\efashion\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\bibek\wordpress\efashion\wp-content\themes\efashion\templates\template-home.php on line 96
-

@@ -15,7 +15,7 @@ if ( is_singular() ) {
 
 ?>
 
-<header class="entry-header has-text-align-center<?php echo esc_attr( $entry_header_classes ); ?>">
+<header class="entry-header <?php echo esc_attr( $entry_header_classes ); ?>">
 
 	<div class="entry-header-inner section-inner medium">
 

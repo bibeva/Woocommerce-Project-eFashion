@@ -134,7 +134,9 @@
 
 						<!-- cart icon -->
 						<div class="cart">
-							<a href="<?php echo get_site_url(); ?>/basket"><i class="fas fa-shopping-cart"></i></a>
+							<a href="<?php echo wc_get_cart_url(); ?>">
+								<i class="fas fa-shopping-cart"></i>
+							</a>
 						</div>
 
 						<?php

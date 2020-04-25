@@ -1,0 +1,40 @@
+2020-04-17T14:14:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _n(), 1 passed in D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\header.php on line 137 and at least 3 expected in D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\l10n.php:415
+Stack trace:
+#0 D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\header.php(137): _n(2)
+#1 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template.php(722): require_once('D:\\2019\\xampp\\h...')
+#2 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template.php(671): load_template('D:\\2019\\xampp\\h...', true)
+#3 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\templates\template-home.php(6): get_header()
+#5 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template-loader.php(98): include('D:\\2019\\xampp\\h...')
+#6 D:\2019\xampp\htdocs\wordpress\efashion\wp-blog-header.php(19): require_once('D:\\2019\ in D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\l10n.php on line 415
+
+2020-04-17T14:14:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _n(), 2 passed in D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\header.php on line 137 and at least 3 expected in D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\l10n.php:415
+Stack trace:
+#0 D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\header.php(137): _n('%d', 2)
+#1 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template.php(722): require_once('D:\\2019\\xampp\\h...')
+#2 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template.php(671): load_template('D:\\2019\\xampp\\h...', true)
+#3 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\templates\template-home.php(6): get_header()
+#5 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template-loader.php(98): include('D:\\2019\\xampp\\h...')
+#6 D:\2019\xampp\htdocs\wordpress\efashion\wp-blog-header.php(19): require_once('D:\ in D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\l10n.php on line 415
+
+2020-04-17T14:14:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _n(), 2 passed in D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\header.php on line 137 and at least 3 expected in D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\l10n.php:415
+Stack trace:
+#0 D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\header.php(137): _n('%d', 2)
+#1 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template.php(722): require_once('D:\\2019\\xampp\\h...')
+#2 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template.php(671): load_template('D:\\2019\\xampp\\h...', true)
+#3 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\templates\template-home.php(6): get_header()
+#5 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template-loader.php(98): include('D:\\2019\\xampp\\h...')
+#6 D:\2019\xampp\htdocs\wordpress\efashion\wp-blog-header.php(19): require_once('D:\ in D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\l10n.php on line 415
+
+2020-04-17T14:16:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function _n(), 2 passed in D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\header.php on line 137 and at least 3 expected in D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\l10n.php:415
+Stack trace:
+#0 D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\header.php(137): _n('%d', 2)
+#1 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template.php(722): require_once('D:\\2019\\xampp\\h...')
+#2 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template.php(671): load_template('D:\\2019\\xampp\\h...', true)
+#3 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 D:\2019\xampp\htdocs\wordpress\efashion\wp-content\themes\efashion\templates\template-home.php(6): get_header()
+#5 D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\template-loader.php(98): include('D:\\2019\\xampp\\h...')
+#6 D:\2019\xampp\htdocs\wordpress\efashion\wp-blog-header.php(19): require_once('D:\ in D:\2019\xampp\htdocs\wordpress\efashion\wp-includes\l10n.php on line 415
+
