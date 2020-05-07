@@ -5,7 +5,7 @@ $('.heroBlock').slick({
 });
 
 // slick js (products)
-$('.home .products').slick({
+$('.home .slickJS .products').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 4,

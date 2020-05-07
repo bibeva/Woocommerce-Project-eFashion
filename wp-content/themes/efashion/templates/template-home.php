@@ -28,7 +28,7 @@ get_header(); ?>
 </section>
 
 <!-- new arrivals block -->
-<section class="block">
+<section class="block slickJS">
   <div class="container">
     <div class="titleHolder">
       <h2><span>New Arrivals</span></h2>
@@ -41,38 +41,12 @@ get_header(); ?>
 <!-- product categories block -->
 <section class="block productCategories">
   <div class="container">
-    <div class="threeCols">
-      <?php
-        $taxonomyName = "product_cat";
-        $prod_categories = get_terms($taxonomyName, array(
-          'orderby'=> 'name',
-          'order' => 'ASC',
-          'hide_empty' => 1
-        ));  
-      
-        foreach( $prod_categories as $prod_cat ) :
-          if ( $prod_cat->parent != 0 )
-            continue;
-            $cat_thumb_id = get_woocommerce_term_meta( $prod_cat->term_id, 'thumbnail_id', true );
-            $cat_thumb_url = wp_get_attachment_image_src( $cat_thumb_id, 'thumbnail-size' )[0];
-            $term_link = get_term_link( $prod_cat, 'product_cat' );
-          ?>
-          <div class="col">
-            <a href="<?php echo $term_link; ?>"> 
-              <div class="image" style="background: url('<?php echo $cat_thumb_url; ?>');">
-                <h3><?php echo $prod_cat->name; ?></h3>
-              </div>
-            </a> 
-          </div>
-        <?php endforeach; 
-        wp_reset_query(); 
-      ?>
-    </div>
+    <?php echo do_shortcode('[product_categories columns="3"]'); ?>
   </div>
 </section>
 
 <!-- sale block -->
-<section class="block">
+<section class="block slickJS">
   <div class="container">
     <div class="titleHolder">
       <h2><span>On Sale</span></h2>
